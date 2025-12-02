@@ -138,9 +138,3 @@ Isaac Premkumar
 EECE 5550 Mobile Robotics  
 Northeastern University  
 Fall 2025
-
-## License
-
-MIT License
-
-Copyright (c) 2024 Mohammed Abdul Rahman
