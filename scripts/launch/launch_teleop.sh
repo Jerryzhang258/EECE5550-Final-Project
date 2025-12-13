@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+echo "=========================================="
+echo "TurtleBot4 Keyboard Control"
+echo "=========================================="
+echo "Movement Controls:"
+echo "  i - Forward      j - Left       l - Right"
+echo "  , - Backward     k - STOP"
+echo ""
+echo "Speed Controls:"
+echo "  q - Increase all speeds     z - Decrease all speeds"
+echo "  w - Increase linear only    x - Decrease linear only"
+echo "  e - Increase angular only   c - Decrease angular only"
+echo ""
+echo "Default: Linear=0.5m/s, Angular=1.0rad/s"
+echo "Recommended: Press 'x' several times to slow to 0.2m/s"
+echo "=========================================="
+echo ""
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
